@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Système de Communication Standardisé en fonctionnement!');
+    res.send('Système de communication standardisé en fonctionnement !');
 });
 
 app.listen(port, () => {
