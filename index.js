@@ -5,9 +5,9 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Système de communication standardisé en fonctionnement !');
+    res.send('Standardized communication system is up and running!');
 });
 
 app.listen(port, () => {
-    console.log(`Serveur en cours d'exécution sur http://localhost:${port}`);
+    console.log(`Server running at http://localhost:${port}`);
 });
