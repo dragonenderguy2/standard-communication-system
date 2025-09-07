@@ -1,6 +1,6 @@
 {
   "name": "standard-communication-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A framework for inter-application communication.",
   "main": "index.js",
   "scripts": {
